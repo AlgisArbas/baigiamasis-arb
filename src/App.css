@@ -1,13 +1,16 @@
 .background{
-    background-color: #7ad998;
+    background-color: #7ab8d9;
     width: 100%;
     height: 100vh;
 }
 
 .navbar{
+    background-color: #f65c5c;
     height: 100px;
     display: flex;
     justify-content: space-around;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .inputContainer{
@@ -15,8 +18,21 @@
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    padding-top: 100px;
 }
 
+.button{
+    background-color: #adf3ad;
+    color: black;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inputs{
+    padding: 10px;
+}
 
 
 

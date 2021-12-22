@@ -1,6 +1,6 @@
-function Button() {
-    return <div className='button'>
-        <button>Register</button>
+function Button(props) {
+    return <div className='btn'>
+        <button className='button'>{props.name}</button>
     </div>
 }
 export default Button;

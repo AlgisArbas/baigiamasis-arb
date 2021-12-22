@@ -3,6 +3,7 @@ import Button from "./Button";
 
 function InputContainer(){
     return <div className='inputContainer'>
+        <h1>REGISTRATION</h1>
         Name:
         <Input />
         Password:
@@ -10,7 +11,7 @@ function InputContainer(){
         Repeat password:
         <Input />
 
-        <Button />
+        <Button name='Register'/>
 
     </div>
 }
