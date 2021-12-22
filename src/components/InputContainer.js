@@ -3,10 +3,13 @@ import Button from "./Button";
 
 function InputContainer(){
     return <div className='inputContainer'>
+        Name:
         <Input />
+        Password:
         <Input />
+        Repeat password:
         <Input />
-        <Input />
+
         <Button />
 
     </div>

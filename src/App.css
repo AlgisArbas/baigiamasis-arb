@@ -1,3 +1,22 @@
 .background{
-    background-color: #f69191;
+    background-color: #7ad998;
+    width: 100%;
+    height: 100vh;
 }
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
